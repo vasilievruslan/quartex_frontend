@@ -1,0 +1,33 @@
+.access-form{
+	@extend %wrapper;
+	padding: 45px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.access-form__content{
+	max-width: 462px;
+
+}
+.access-form__title{
+	margin-top: 95px;
+}
+.access-form__description{
+	margin-bottom: 70px;
+}
+.access-form__input{
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #bebebe;
+	padding: 11px 1px;
+	width: 367px;
+	margin: 20px 0px;
+	outline: none;
+	&:placeholder{
+		color: #333333;
+	}
+}
+.access-form__btn{
+	background-image: linear-gradient(to right, #8286fd 0%, #7074fa 100%);
+	margin-top: 58px;
+}
