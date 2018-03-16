@@ -1,0 +1,44 @@
+.team{
+	background-color: #fafbfc;
+}
+.team__container{
+	@extend %wrapper;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 120px;
+}
+.taem__desc{
+	max-width: 462px;
+}
+.member__block{
+	max-width: 410px;
+	min-height: 450px;
+	border-radius: 19px;
+	background-color: #696dfb;
+	box-shadow: 0 3px 7px 1px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	padding: 0px 60px;
+	box-sizing: border-box;
+	margin-bottom: 135px;
+}
+.member__pic{
+	position: relative;
+	top: -33px;
+	margin-bottom: -33px;
+}
+.member__name{
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.member__position{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 43px;
+}
+.member__summary{
+	font-size: 13px;
+	font-weight: 700;
+	text-align: left;
+}

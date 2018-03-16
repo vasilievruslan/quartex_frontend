@@ -1,0 +1,14 @@
+.roadmap{
+	@extend %wrapper;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 170px;
+	margin-bottom: 180px;
+
+}
+.roadmap__text{
+	max-width: 310px;
+}
+.roadmap__table{
+	padding-top: 30px;
+}

@@ -1,0 +1,15 @@
+.currency{
+	display: flex;
+	justify-content: space-between;
+	@extend %wrapper;
+	margin-top: 152px;
+}
+.currency__content__tite{
+	margin-top: 40px;
+}
+.currency__content{
+	width: 462px;
+}
+.currency__content__btn{
+	background-image: linear-gradient(to right, #8387fd 0%, #6e73fb 100%);
+}

@@ -1,0 +1,21 @@
+.access{
+	background-color: #fafbfc;
+	padding-top: 110px;
+}
+.access__wrapper{
+	@extend %wrapper;
+	display: flex;
+	justify-content: space-between;
+
+}
+.access__content{
+	max-width: 437px;
+}
+
+.access__content__btn{
+	background-image: linear-gradient(to right, #b178eb 0%, #8a71ca 100%);
+}
+
+.access__chat{
+	margin-bottom: 122px;
+}
