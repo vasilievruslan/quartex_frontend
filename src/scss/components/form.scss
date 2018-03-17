@@ -31,3 +31,31 @@
 	background-image: linear-gradient(to right, #8286fd 0%, #7074fa 100%);
 	margin-top: 58px;
 }
+.access-form__cubes{
+	position: relative;
+	img{
+		display: block;
+		line-height: 0;
+	}
+	.quartz-ico{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 121px;
+		height: 120px;
+		box-shadow: 0 21px 13px -15px rgba(118, 122, 250, 0.5);
+		border-radius: 23px;
+		background-color: #777bfa;
+		&:after{
+			content: '';
+			width: 80px;
+			height: 80px;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			background: url('../../img/quartz-white.svg') 0 0 no-repeat;
+			background-size: contain;
+		}	
+	}
+}
