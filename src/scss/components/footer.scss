@@ -1,0 +1,26 @@
+.footer{
+	background-color: #181734;
+
+}
+.footer__container{
+	@extend %wrapper;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+.footer__links{
+	a{
+		display: inline-block;
+		width: 22px;
+		height: 18px;
+	}
+	.medium{
+		background: url('../img/medium.svg') 0 0 no-repeat;
+	}
+	.twitter{
+		background: url('../img/twitter.svg') 0 0 no-repeat;
+	}
+}

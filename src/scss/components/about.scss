@@ -1,0 +1,47 @@
+.about{
+	background-color: #1c1c3a;
+	color: #fff;
+
+}
+.about__container{
+	@extend %wrapper;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 200px;
+	padding-bottom: 53px;
+}
+.about__text{
+	max-width: 462px;
+}
+.about__links{
+	display: flex;
+	align-items: center;
+	a{
+		display: inline-block;
+		&:not(:last-child){
+			margin-right: 18px;
+		}
+	}
+
+}
+.about__links__quartz{
+	width: 71px;
+	height: 71px;
+	box-shadow: 0 21px 13px -15px rgba(118, 122, 250, 0.5);
+	border-radius: 17px;
+	background-color: #777bfa;
+	margin-right: 40px !important;
+	position: relative;
+	&:after{
+		position: absolute;
+		content: "";
+		width: 49px;
+		height: 49px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-image: url("../../img/quartz-logo-white.svg");
+		background-size: cover;
+	}
+}
