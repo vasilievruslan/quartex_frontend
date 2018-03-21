@@ -1,4 +1,5 @@
 //= slick.js
+//= anime.min.js
 
 $(function () {
 	$('.carousel').slick({
