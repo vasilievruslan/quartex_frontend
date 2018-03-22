@@ -1,5 +1,6 @@
 //= slick.js
 //= anime.min.js
+//= cards-slider.js
 
 $(function () {
 	$('.carousel').slick({
