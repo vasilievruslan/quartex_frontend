@@ -3,5 +3,13 @@
 	padding: 100px 0px;
 }
 .carousel__iitem{
-	text-align: center;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+
+	img{
+		display: block;
+	}
 }

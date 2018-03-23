@@ -65,10 +65,25 @@
     top: -56px;
 }
 .banner__content__block{
+	@extend %wrapper;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 230px;
+	.block__rose{
+		max-width: 380px;
+	}
 }
 .--banner-bottom{
 	max-width: 541px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.banner__content{
+		
+		.block_img{
+			position: relative;
+		}
+	}
+	.banner__content__block{}
 }

@@ -1,6 +1,7 @@
 .access-form{
 	@extend %wrapper;
-	padding: 45px 0px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	display: flex;
 	justify-content: space-between;
 }

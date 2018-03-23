@@ -48,6 +48,7 @@ p{
 	display: block;
 	text-decoration: none;
 	margin-top: 47px;
+	margin-bottom: 45px;
 	position: relative;
 	color: #fff;
 	border: none;
@@ -81,8 +82,15 @@ i.--arrow-left{
 	%wrapper{
 		max-width: 1064px;
 		margin: 0 auto;
-		flex-wrap: wrap;
-		padding: 0px 20px;
+		flex-wrap: wrap !important;
+		padding-left: 20px;
+		padding-right: 20px;
 		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	%wrapper{
+		justify-content: space-around !important;
 	}
 }
