@@ -1,8 +1,10 @@
 //= slick.js
 //= anime.min.js
-//= cards-slider.js
 
 $(function () {
+	
+	//= cards-slider.js
+	
 	$('.carousel').slick({
 		infinite: true,
 		slidesToShow: 4,
@@ -27,4 +29,12 @@ $(function () {
 	      }
 	    }]
 	});
+
+	$('.bt-menu').click(function(e) {
+		e.preventDefault();
+    	$(this).toggleClass('active');
+    	$('.header__container').toggleClass('active');
+    	$('.header__nav').slideToggle(600);
+	});
+
 })

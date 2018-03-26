@@ -5,36 +5,7 @@
 	max-width: 100vw;
 	overflow-x: hidden;
 }
-.header{
-	@extend %wrapper;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 64px;
-}
-.header__logo{
-	display: flex;
-	align-items: center;
-	img{
-		margin-right: 16px;
-	}
-}
-.header__nav{
 
-	.nav__item{
-		color: #fff;
-		text-decoration: none;
-	}
-}
-
-.header__course{
-	@extend %wrapper;
-	text-align: right;
-	margin-top: 13px;
-	.header__course__item{
-		line-height: 1.7;
-	}
-}
 .banner__content{
 	position: relative;
 	margin-top: 70px;
