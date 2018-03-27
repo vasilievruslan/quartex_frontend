@@ -34,7 +34,14 @@ $(function () {
 		e.preventDefault();
     	$(this).toggleClass('active');
     	$('.header__container').toggleClass('active');
-    	$('.header__nav').delay(50).slideToggle(600);
+    	$('.header__nav').toggleClass('open');
 	});
 
+	$(window).scroll(function(){
+		if ( $(window).scrollTop() > 43 ) {
+			$('.header__container').addClass('scroll')
+		}else{
+			$('.header__container').removeClass('scroll')
+		}
+	})
 })

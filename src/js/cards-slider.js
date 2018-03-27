@@ -8,7 +8,7 @@ $(function(){
   }).on('mouseleave', function(){
     $(this).css('transition', 'all 0.2s ease-in-out')
   })
-  on();
+  // on();
  // autoplay
   
 //   var autoPLay = setInterval(function(){
@@ -38,7 +38,7 @@ $(function(){
 //     }
 // }, 5000)
   
-   
+     
   // on click to point
 
   $('.points_point').on('click', function(event) {
@@ -67,7 +67,7 @@ $(function(){
         $('.cards').find('.' + index).css({
           transform: ''
         });
-        on();
+        // on();
       }, 1100)
 
       p = $(this).attr('data-id');
@@ -90,56 +90,56 @@ $(function(){
   // });
   
   function on(){
-  $('.cards_inner__card').draggable({
-    start: function( event, ui ) {
-      startPosition = ui.position.left;
-    },
-    drag:function(e, ui){
-      if(ui.position.left > startPosition){
-        ui.position.left = startPosition;
-      }
-      if(ui.position.left < -250){
-        ui.position.left = -250;
-      }
-      x = ui.position.left;
-      $(this).css('transform',' rotate(' + x/36 + 'deg)')
-    },
-    revert:function(valid) {
-      if(x > 60 || x < - 60) {
-        var el = $('.cards_inner__card:last-child');
-        setTimeout(function(){
-          el_class_end = el.attr('class').split(' ')[1]
-          el.css({
-            opacity: 0,
-          })
-          if(p < 3){
-            $('.points').find('.active').removeClass('active').next().addClass('active') 
-            p++
-          } else {
-            $('.points').find('.active').removeClass('active')
-            $('.points').find('.first').addClass('active') 
-            p = 0
-          }
-        }, 10)
-        setTimeout(function(){
-          $('.cards').append('<div class="cards_inner__card ' + el_class_end + '"></div>')
-          el.remove();
-          on();
-          
-        },200);
-      } else {
-        $(this).css('transform','rotate(0deg)')
-        return !valid;
-      }
-    },
-    axis:'x',
-    containment:'.cards_inner'
-  });
-  $('.cards_inner__card:nth-of-type(1)').draggable( 'disable' )
-  $('.cards_inner__card:nth-of-type(2)').draggable( 'disable' )
-  $('.cards_inner__card:nth-of-type(3)').draggable( 'disable' )
-  $('.cards_inner__card:nth-of-type(4)').draggable( 'enable' )
-}
+    $('.cards_inner__card').draggable({
+      start: function( event, ui ) {
+        startPosition = ui.position.left;
+      },
+      drag:function(e, ui){
+        if(ui.position.left > startPosition){
+          ui.position.left = startPosition;
+        }
+        if(ui.position.left < -250){
+          ui.position.left = -250;
+        }
+        x = ui.position.left;
+        $(this).css('transform',' rotate(' + x/36 + 'deg)')
+      },
+      revert:function(valid) {
+        if(x > 60 || x < - 60) {
+          var el = $('.cards_inner__card:last-child');
+          setTimeout(function(){
+            el_class_end = el.attr('class').split(' ')[1]
+            el.css({
+              opacity: 0,
+            })
+            if(p < 3){
+              $('.points').find('.active').removeClass('active').next().addClass('active') 
+              p++
+            } else {
+              $('.points').find('.active').removeClass('active')
+              $('.points').find('.first').addClass('active') 
+              p = 0
+            }
+          }, 10)
+          setTimeout(function(){
+            $('.cards').append('<div class="cards_inner__card ' + el_class_end + '"></div>')
+            el.remove();
+            on();
+            
+          },200);
+        } else {
+          $(this).css('transform','rotate(0deg)')
+          return !valid;
+        }
+      },
+      axis:'x',
+      containment:'.cards_inner'
+    });
+    $('.cards_inner__card:nth-of-type(1)').draggable( 'disable' )
+    $('.cards_inner__card:nth-of-type(2)').draggable( 'disable' )
+    $('.cards_inner__card:nth-of-type(3)').draggable( 'disable' )
+    $('.cards_inner__card:nth-of-type(4)').draggable( 'enable' )
+  }
 // on();
 
 
