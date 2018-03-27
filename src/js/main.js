@@ -34,7 +34,7 @@ $(function () {
 		e.preventDefault();
     	$(this).toggleClass('active');
     	$('.header__container').toggleClass('active');
-    	$('.header__nav').slideToggle(600);
+    	$('.header__nav').delay(50).slideToggle(600);
 	});
 
 })
