@@ -64,3 +64,20 @@
     background:transparent url('../img/cards/livecoin.svg') left top no-repeat;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .cards{
+    transform: scale(0.7);
+  }
+  .points{
+    right: auto;
+    top: auto;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    &_point{
+      margin: 5px;
+    }
+  }
+}

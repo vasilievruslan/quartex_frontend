@@ -59,4 +59,34 @@
 	.banner__content__block{}
 }
 
+@media screen and (max-width: 425px) {
+	.banner__content{
+		margin-top: 260px;
+	}
+	.content__img{
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.header__course{
+		display: none;
+	}
+	.banner__content .block_img {
+	    top: 0px;
+	    transform: scale(0.6);
+	    right: -46px;
+	    margin-top: -120px;
+	    margin-bottom: -410px;
+	}
+	.block__btns{
+		display: none;
+	}
+	.block__rose {
+    	order: 2;
+	}
+	.second__banner__block{
+		margin-bottom: 40px;
+	}
+}
 

@@ -45,3 +45,18 @@
 		background-size: cover;
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.about__links{
+		flex-direction: column;
+	}
+	.about__links__quartz{
+		margin: 20px !important;
+	}
+	.dw-btns{
+		text-align: center;	
+	}
+	.about__links__item{
+		margin: 0 !important;
+	}
+}

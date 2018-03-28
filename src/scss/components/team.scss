@@ -11,8 +11,11 @@
 .taem__desc{
 	max-width: 462px;
 }
+.members__slider{
+	width: 500px;
+	max-width: 100vw;
+}
 .member__block{
-	max-width: 410px;
 	min-height: 450px;
 	border-radius: 19px;
 	background-color: #696dfb;
@@ -21,7 +24,9 @@
 	text-align: center;
 	padding: 0px 60px;
 	box-sizing: border-box;
+	margin: 40px 20px;
 	margin-bottom: 135px;
+	outline: none;
 }
 .member__pic{
 	position: relative;
@@ -44,4 +49,10 @@
 }
 .taem__desc{
 	margin-bottom: 135px;
+}
+
+@media screen and (max-width: 425px) {
+	.member__block{
+		padding: 0px 40px 40px;
+	}
 }

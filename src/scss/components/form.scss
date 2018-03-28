@@ -6,7 +6,8 @@
 	justify-content: space-between;
 }
 .access-form__content{
-	max-width: 462px;
+	width: 462px;
+	max-width: 100%;
 
 }
 .access-form__title{
@@ -24,6 +25,7 @@
 	width: 367px;
 	margin: 20px 0px;
 	outline: none;
+	max-width: 100%;
 	&:placeholder{
 		color: #333333;
 	}
@@ -37,6 +39,7 @@
 	img{
 		display: block;
 		line-height: 0;
+		width: 100%;
 	}
 	.quartz-ico{
 		position: absolute;

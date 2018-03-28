@@ -17,3 +17,13 @@
 .currency__pic{
 	position: relative;
 }
+
+@media screen and (max-width: 425px) {
+	.currency{
+		margin-top: 0;
+
+	}
+	.currency__content__btn{
+		margin-bottom: 40px;
+	}
+}
