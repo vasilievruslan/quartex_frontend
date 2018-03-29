@@ -3,12 +3,10 @@ $(function(){
   var p = 0;
   $('.cards_inner__card').on('mouseenter', function(){
     $(this).css('transition', 'auto');
-    on();
     console.log('ok');
   }).on('mouseleave', function(){
     $(this).css('transition', 'all 0.2s ease-in-out')
   })
-  // on();
  // autoplay
   
   // var autoPLay = setInterval(function(){
@@ -42,7 +40,6 @@ $(function(){
 
   $('.currency__pic').swipe({
     swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-      console.log("You swiped " + direction );
       var el = $('.cards_inner__card:last-child').attr('class').split(' ')[1];
       if(direction == "right"){
         $('.cards_inner__card:last-child').css({

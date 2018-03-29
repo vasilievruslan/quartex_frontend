@@ -57,4 +57,21 @@ $(function () {
 			$('footer.block').fadeIn('400');
 		}
 	});
+
+
+
+	$('.roadmap__responsive').click(function(event) {
+		$('.roadmap__responsive__container').slideToggle(600);
+		$('.rm__arrow').toggleClass('active');
+	});
+
+	var res = null;
+	$.get('https://wex.nz/api/3/ticker/btc_usd-eth_usd', function(data) {
+		
+		$('#btc_usd').html(Math.floor(data.btc_usd.avg));
+		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
+
+		console.log(res)
+	}, 'jsonp');
+	
 })
