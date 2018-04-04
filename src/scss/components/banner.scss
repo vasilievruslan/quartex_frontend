@@ -48,6 +48,12 @@
 	max-width: 541px;
 }
 
+.sale{
+	.header__btn{
+		display: none !important;
+	}
+}
+
 
 @media screen and (max-width: 768px) {
 	.banner__content{

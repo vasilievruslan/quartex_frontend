@@ -1,3 +1,5 @@
+'use strict'
+
 //= slick.js
 //= anime.min.js
 //= jquery.touchSwipe.min.js
@@ -72,5 +74,41 @@ $(function () {
 
 		console.log(Math.floor(data.eth_usd.avg).toString().length)
 	}, 'jsonp');
+
+
+	// countdown
+
+
+	var second = 1000,
+		minute = second * 60,
+		hour = minute * 60,
+		day = hour * 24;
+
+	var countDown = new Date('Apr 26, 2018 00:00:00 UTC'),
+	x = setInterval(function() {
+
+		var now = new Date().getTime(),
+		distance = countDown - now;
+
+		$('#days').html(Math.floor(distance / (day))),
+		$('#hours').html(Math.floor((distance % (day)) / (hour))),
+		$('#minutes').html(Math.floor((distance % (hour)) / (minute))),
+		$('#seconds').html(Math.floor((distance % (minute)) / second));
+
+		//if (distance < 0) {
+		//  clearInterval(x);
+		//}
+
+	}, second)
+
+
+	// calculator
+
+	var price = 0.125223
+
+	$('#input').keyup(function(event) {
+		var res = parseFloat($('#input').val()) / price
+		$('#output').val(res.toFixed(2))
+	});
 	
 })

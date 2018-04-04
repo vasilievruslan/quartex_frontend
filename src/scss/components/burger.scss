@@ -76,6 +76,7 @@
     z-index: 2;
     overflow: hidden;
     padding-top: 44px;
+    z-index: 4;
     .header {
         @extend %wrapper;
         display: flex;
