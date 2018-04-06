@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195px" height="203px" viewBox="0 0 195 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>token</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="97" cy="100.776639" rx="96" ry="99.7377049"></ellipse>
+        <filter x="-0.8%" y="-0.8%" width="101.6%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="crowdsalePage-Copy-3" transform="translate(-1198.000000, -2036.000000)">
+            <g id="firstPage">
+                <g id="token" transform="translate(360.000000, 2036.000000)">
+                    <g id="exchangeDashboard" transform="translate(670.000000, 0.000000)">
+                        <g id="token" transform="translate(168.000000, 0.000000)">
+                            <g id="ovalbgLogo">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#333333" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="quartz" fill="#787DFC" fill-rule="nonzero">
+                                <path d="M97.5,0 C43.55,0 0,45.3366667 0,101.5 C0,157.663333 43.55,203 97.5,203 C151.45,203 195,157.663333 195,101.5 C195,45.3366667 151.45,0 97.5,0 Z M97.5,196.233333 C47.125,196.233333 6.5,153.941667 6.5,101.5 C6.5,49.0583333 47.125,6.76666667 97.5,6.76666667 C147.875,6.76666667 188.5,49.0583333 188.5,101.5 C188.5,153.941667 147.875,196.233333 97.5,196.233333 Z M162.5,101.5 L134.225,71.05 L60.775,71.05 L32.5,101.5 L60.775,131.95 L134.225,131.95 L162.5,101.5 Z M59.475,111.988333 L40.3,101.5 L59.475,90.6733333 L59.475,111.988333 Z M63.375,89.32 L131.625,89.32 L131.625,113.341667 L63.375,113.341667 L63.375,89.32 Z M135.525,90.6733333 L154.7,101.5 L135.525,111.988333 L135.525,90.6733333 Z M135.525,85.9366667 L135.525,78.155 L150.8,94.7333333 L135.525,85.9366667 Z M131.625,75.4483333 L131.625,85.26 L63.375,85.26 L63.375,75.4483333 L131.625,75.4483333 Z M59.475,78.155 L59.475,85.9366667 L44.2,94.7333333 L59.475,78.155 Z M59.475,117.063333 L59.475,124.845 L44.2,108.266667 L59.475,117.063333 Z M63.375,127.551667 L63.375,117.74 L131.625,117.74 L131.625,127.551667 L63.375,127.551667 Z M135.525,124.845 L135.525,117.063333 L150.8,108.266667 L135.525,124.845 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

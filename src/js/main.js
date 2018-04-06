@@ -65,6 +65,7 @@ $(function () {
 	$('.roadmap__responsive').click(function(event) {
 		$('.roadmap__responsive__container').slideToggle(600);
 		$('.rm__arrow').toggleClass('active');
+		$('.roadmap__responsive__button').toggleClass('active');
 	});
 
 	$.get('https://wex.nz/api/3/ticker/btc_usd-eth_usd', function(data) {
@@ -89,15 +90,22 @@ $(function () {
 
 		var now = new Date().getTime(),
 		distance = countDown - now;
+		var arr = [Math.floor(distance / (day)), Math.floor((distance % (day)) / (hour)), Math.floor((distance % (hour)) / (minute)), Math.floor((distance % (minute)) / second)]
 
-		$('#days').html(Math.floor(distance / (day))),
-		$('#hours').html(Math.floor((distance % (day)) / (hour))),
-		$('#minutes').html(Math.floor((distance % (hour)) / (minute))),
-		$('#seconds').html(Math.floor((distance % (minute)) / second));
+		for (var i = arr.length - 1; i >= 0; i--) {
+			if (arr[i] < 10) {
+				arr[i] = '0' + arr[i]
+			}
+		}
+		
+		$('#days').html(arr[0]),
+		$('#hours').html(arr[1]),
+		$('#minutes').html(arr[2]),
+		$('#seconds').html(arr[3]);
 
-		//if (distance < 0) {
-		//  clearInterval(x);
-		//}
+		if (distance < 0) {
+		 clearInterval(x);
+		}
 
 	}, second)
 

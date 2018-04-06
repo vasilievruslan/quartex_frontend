@@ -1,45 +1,9 @@
 .sale{
 	background:transparent url('../img/bg-big.svg') left top no-repeat;
+	background-size: cover;
 	padding-top: 300px;
 	color: #fff;
 }
-.sale__countdown{
-	@extend %wrapper;
-	text-align: center;
-}
-
-
-// countdown
-
-
-.countdown__title{
-	margin: 40px 0 20px;
-	font-weight: 400;
-	font-size: 39px;
-}
-.countdown__container{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-}
-.countdown__item{
-	margin: 10px 5px;
-}
-.countdown__item_name{
-	text-transform: uppercase;
-	font-size: 36px;
-
-}
-.countdown__contdown__item_contaier{
-	width: 255px;
-	height: 100px;
-	border-radius: 28px;
-	background-color: #696efb;
-	font-size: 48px;
-	line-height: 2.2;
-}
-
 // address!
 
 .sale__address{
@@ -49,12 +13,12 @@
 }
 .address__block{
 	display: flex;
-	flex-wrap: wrap;
 	align-items: stretch;
 	width: 100%;
 	height: 100px;
 	border-radius: 25px;
 	background-color: #696efb;
+	overflow: hidden;
 
 }
 .address__etherscan{
@@ -64,13 +28,13 @@
 	color: #333333;
 	font-size: 21px;
 	line-height: 4.9;
+	text-decoration: none;
 }
 .address__token{
 	font-size: 21px;
 	line-height: 4.9;
 	flex-grow: 1;
 }
-
 // calculator
 
 .convret-ico{
@@ -92,26 +56,32 @@
 }
 .calculator__container{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	.token-name{
 		text-transform: uppercase;
 		margin: 12px 0px;
 	}
 }
+.calculator__block{
+	flex-grow: 1;
+	margin: 5px;
+}
 .block__input{
 	display: block;
 	box-sizing: border-box;
-	width: 445px;
-	max-width: 100%;
 	border-radius: 28px;
 	border: none;
 	color: #fff;
 	outline: none;
-	margin: 5px;
+	width: 100%;
 	height: 120px;
 	font-size: 40px;
 	text-align: center;
+	box-sizing: border-box;
+
+	&::placeholder{
+		color: #fff;
+	}
 
 	&#input{
 		background-image: linear-gradient(to right, #b178eb 0%, #8a71ca 100%);
@@ -119,6 +89,7 @@
 
 	&#output{
 		background-image: linear-gradient(to right, #8387fd 0%, #6e73fb 100%);
+		color: #fff;
 	}
 }
 
@@ -144,9 +115,40 @@
 		position: absolute;
 		display: block;
 		top: 50%;
-		left: 50px;
-		transform: translateY(-50%);
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
+}
+
+@media screen and (max-width: 768px) {
+	.block__input{
+		font-size: 27px;
+	}
+	.address__etherscan, .address__token {
+	    padding: 0px 10px;
+	}
+}
+@media screen and (max-width: 425px){
+	
+	.calculator__block{
+		// width: 120px;
+		height: 80px;
+	}
+	.block__input{
+		font-size: 20px;
+	}
+	.instructions__item{
+		width: 150px;
+		height: 150px;
+	}
+	.address__etherscan, .address__token {
+	    font-size: 9px;
+	    padding: 13px;
+	}
+	.address__block{
+		height: 64px;
+	}
+
 }
 
 
