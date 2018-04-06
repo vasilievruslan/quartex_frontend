@@ -89,7 +89,8 @@
 
 	&#output{
 		background-image: linear-gradient(to right, #8387fd 0%, #6e73fb 100%);
-		color: #fff;
+		-webkit-text-fill-color: #fff;
+		opacity: 1 !important;
 	}
 }
 

@@ -62,12 +62,17 @@
 	margin: 110px 0 95px;
 }
 .info__row{
-	display: flex;
+	text-align: center;
 	margin: 18px 0px;
 	font-size: 18px;
 }
-.info__title {
-    width: 95px;
+.info__content{
+	padding: 10px;
+	border-bottom: 1px solid #333333;
+
+	&.--address{
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 425px) {
@@ -80,5 +85,8 @@
 	}
 	.token__logo img{
 		width: 110px;
+	}
+	.info__content.--address{
+		font-size: 10px;
 	}
 }
