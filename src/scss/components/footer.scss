@@ -27,3 +27,12 @@
 		background: url('../img/twitter.svg') 0 0 no-repeat;
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.footer__container{
+		text-align: center;
+	}
+	.footer__cpr{
+		margin-bottom: 10px;
+	}
+}
