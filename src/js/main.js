@@ -58,8 +58,26 @@ $(function () {
 			$('.header__container').removeClass('scroll')
 			$('footer.block').fadeIn('400');
 		}
+
+		var sb = $(this).scrollTop() + $(this).height();
+		var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
+		if(sb > mp){
+		console.log('now')
+		progress.play()
+		}
 	});
 
+	var rects = document.querySelectorAll('.progress__rect')
+	var progress = anime({
+		direction: 'reverse',
+		targets: rects,
+		width: 0,
+		easing: 'linear',
+	})
+
+	setTimeout(function(){
+		progress.pause(); 
+	}, 50)
 
 
 	$('.roadmap__responsive').click(function(event) {
