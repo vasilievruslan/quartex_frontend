@@ -1,0 +1,36 @@
+.err{
+	background: url('../img/background-banner.svg') top left no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 50px 20px;
+	box-sizing: border-box;
+
+}
+.err__logo{
+	 img{
+	 	max-width: 100%;
+	 }
+}
+.err__title{
+	font-size: 200px;
+}
+.err__subtitle{
+	font-size: 36px;	
+}
+
+.err__btn{
+	font-size: 36px;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 115px;
+	border-radius: 28px;
+    background-image: linear-gradient(to right, #b178eb 0%, #8a71ca 100%);
+    margin-top: 113px;
+}

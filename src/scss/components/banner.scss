@@ -43,6 +43,7 @@
 	.block__rose{
 		max-width: 380px;
 		position: relative;
+		z-index: 1;
 	}
 }
 .--banner-bottom{
@@ -84,6 +85,23 @@
 		border-color: transparent transparent transparent #777dfc;
 	}
 }
+.playbtn__toolkit{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(27px, 31px);
+	z-index: -1;
+	
+	.toolkit__text{
+		position: absolute;
+		left: 105%;
+		bottom: 0;
+		width: 100%;
+	}
+	svg{
+		width: 200px;
+	}
+}
 
 .sale{
 	.header__btn{
@@ -95,12 +113,15 @@
 		
 		.block_img{
 			position: relative;
+			right: -150px;
 		}
 	}
-	.banner__content__block{}
 }
 
 @media screen and (max-width: 425px) {
+	.playbtn__toolkit{
+		display: none;
+	}
 	.banner__content{
 		margin-top: 260px;
 	}

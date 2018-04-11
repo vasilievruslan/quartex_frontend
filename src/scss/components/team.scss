@@ -57,7 +57,11 @@
 }
 
 
-
+@media screen and (max-width: 768px){
+	.members__slider{
+		order: 1;
+	}
+}
 
 @media screen and (max-width: 425px) {
 
