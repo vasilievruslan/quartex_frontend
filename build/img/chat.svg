@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="467px" height="702px" viewBox="0 0 467 702" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>chat</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -23,25 +23,25 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="mainPageQuartz" transform="translate(-281.000000, -3512.000000)">
             <g id="mainPage">
-                <g id="rateBlock" transform="translate(0.000000, 3349.000000)">
-                    <g id="chat" style="mix-blend-mode: darken;" transform="translate(281.000000, 163.000000)">
+                <g id="rateBlock" transform="translate(8.000000, 3349.000000)">
+                    <g id="chat" style="mix-blend-mode: darken;" transform="translate(273.000000, 163.000000)">
                         <g id="optionButtons" transform="translate(24.000000, 330.000000)">
                             <g id="optionButton">
                                 <rect id="Rectangle-3" fill="#D8D8D8" x="0" y="0" width="120" height="57" rx="20"></rect>
-                                <text id="other" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
-                                    <tspan x="30" y="36">other</tspan>
+                                <text id="BTC" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="42" y="36">BTC</tspan>
                                 </text>
                             </g>
                             <g id="optionButton" transform="translate(150.000000, 0.000000)">
                                 <rect id="Rectangle-3" fill="#D8D8D8" x="0" y="0" width="120" height="57" rx="20"></rect>
-                                <text id="other" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
-                                    <tspan x="30" y="36">other</tspan>
+                                <text id="ETH" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="42" y="36">ETH</tspan>
                                 </text>
                             </g>
                             <g id="optionButton" transform="translate(300.000000, 0.000000)">
                                 <rect id="Rectangle-3" fill="#D8D8D8" x="0" y="0" width="120" height="57" rx="20"></rect>
-                                <text id="other" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
-                                    <tspan x="30" y="36">other</tspan>
+                                <text id="USD" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#FFFFFF">
+                                    <tspan x="42" y="36">USD</tspan>
                                 </text>
                             </g>
                         </g>
@@ -57,8 +57,8 @@
                             <g id="top" mask="url(#mask-2)">
                                 <g transform="translate(29.000000, 26.000000)">
                                     <g id="text" font-family="RobotoMono-Regular, Roboto Mono" font-size="16" font-weight="normal">
-                                        <text id="BTC---XRP-rate" fill="#333333">
-                                            <tspan x="0" y="15">BTC - XRP rate</tspan>
+                                        <text id="NEO/BTC-rate" fill="#333333">
+                                            <tspan x="0" y="15">NEO/BTC rate</tspan>
                                         </text>
                                         <text id="Show-details" opacity="0.5" fill="#333333">
                                             <tspan x="213" y="15">Show details</tspan>
@@ -72,26 +72,25 @@
                         </g>
                         <g id="chatWindow" transform="translate(110.000000, 83.000000)">
                             <rect id="Rectangle-4" fill="#D8D8D8" x="0" y="0" width="334" height="90" rx="10"></rect>
-                            <text id="How-will-the-course" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#333333">
-                                <tspan x="28" y="28">How will the course of </tspan>
-                                <tspan x="28" y="52">the NEO perform this </tspan>
-                                <tspan x="28" y="76">week?</tspan>
+                            <text id="How-did-NEO-perfom-t" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#333333">
+                                <tspan x="28" y="40">How did NEO perfom this </tspan>
+                                <tspan x="28" y="64">week?</tspan>
                             </text>
                         </g>
                         <g id="chatText" transform="translate(23.000000, 212.000000)" fill="#333333" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal">
-                            <text id="Sure-one-second.">
-                                <tspan x="0" y="237">Sure one second.</tspan>
+                            <text id="Sure,-one-second,-pl">
+                                <tspan x="0" y="237">Sure, one second, please.</tspan>
                             </text>
                             <text id="Choose-your-option">
                                 <tspan x="1" y="86">Choose your option</tspan>
                             </text>
-                            <text id="What-exchange-rate-a">
-                                <tspan x="1" y="19">What exchange rate are </tspan>
+                            <text id="What-exchange-pair-a">
+                                <tspan x="1" y="19">What exchange pair are </tspan>
                                 <tspan x="1" y="43">you looking for?</tspan>
                             </text>
                         </g>
-                        <text id="How-I-can-assist-you" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#333333">
-                            <tspan x="24" y="39">How I can assist you today Mike?</tspan>
+                        <text id="How-can-I-assist-you" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal" fill="#333333">
+                            <tspan x="24" y="39">How can I assist you today, Mike? </tspan>
                         </text>
                         <rect id="grad" fill="url(#linearGradient-5)" x="0" y="0" width="467" height="468"></rect>
                     </g>

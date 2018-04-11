@@ -8,6 +8,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
 	padding-top: 120px;
 	&.--responsive{
 		display: none;
@@ -32,6 +33,7 @@
 	margin: 40px 20px;
 	margin-bottom: 135px;
 	outline: none;
+	position: relative;
 }
 .member__pic{
 	position: relative;
@@ -54,6 +56,29 @@
 }
 .taem__desc{
 	margin-bottom: 135px;
+}
+
+.member__links{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	a{
+		display: inline-block;
+		width: 22px;
+		height: 18px;
+		background-size: contain;
+	}
+}
+
+.twitter-w{
+	background: url('../img/twitter-w.svg') 0 0 no-repeat;
+	margin-right: 16px;
+}
+
+.linkedin-w{
+	background: url('../img/linkedin-w.svg') 0 0 no-repeat;
 }
 
 

@@ -15,6 +15,7 @@ $(function () {
 		autoplay: true,
 		autoplaySpeed: 3000,
 		fade: true,
+		dots: true,
 	})
 	
 	$('.carousel').slick({
@@ -136,5 +137,55 @@ $(function () {
 		var res = parseFloat($('#input').val()) / price
 		$('#output').val(res.toFixed(2))
 	});
+
+
+	// pop-up video
+
+	var stopVideo = function(player) {
+    var vidSrc = player.prop('src');
+	    player.prop('src', ''); // to force it to pause
+	    player.prop('src', vidSrc);
+	};
+
+	$('.rose__playbtn').click(function(event) {
+		event.preventDefault();
+		$('.pop-up').fadeIn(400);
+	});
+
+	$('.close-btn').click(function() {
+		$('.pop-up').fadeOut(400);
+		stopVideo($('#qvideo'))
+	});
+
+
+	//scrollTo
+
+	$('a[href*="#"]')
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+        if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+            location.hostname == this.hostname
+        ) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000, function() {
+                    var $target = $(target);
+                    $target.focus();
+                    if ($target.is(":focus")) {
+                        return false;
+                    } else {
+                        $target.attr('tabindex', '-1');
+                        $target.focus();
+                    };
+                });
+            }
+        }
+    });
 	
 })
