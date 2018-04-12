@@ -1,0 +1,17 @@
+# GoogleBot
+User-agent: Googlebot
+Disallow: /img/
+Crawl-delay: 2
+Host: www.qrtx.io
+
+# Yandex-bot
+User-agent: Yandex
+Disallow: /img/
+Crawl-delay: 4
+Host: www.qrtx.io
+
+# All other robots
+User-agent: *
+Disallow: /img/
+Crawl-delay: 6
+Host: www.qrtx.io

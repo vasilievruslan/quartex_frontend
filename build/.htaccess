@@ -1,13 +1,16 @@
 # Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
 RewriteEngine On
+
+ErrorDocument 404 /404.html
+
 RewriteCond %{SERVER_PORT} !^443$
 RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
-RewriteRule ^([^.]+)\.html$ http://qrtx.io/$1 [R=301,L]
+RewriteRule ^([^.]+)\.html$ https://qrtx.io/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
@@ -15,6 +18,7 @@ RewriteRule (.*) /$1.html [L]
 
 RewriteCond %{REQUEST_URI} /index.html
 RewriteCond %{QUERY_STRING} ^\z
-RewriteRule ^(.*)$ http://qrtx.io/? [R=301,L]
+RewriteRule ^(.*)$ https://qrtx.io/? [R=301,L]
+
 # Конец редиректа
 
