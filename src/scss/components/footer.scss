@@ -55,6 +55,14 @@
 		height:0;
 		overflow:hidden;
 	}
+	.pop-layout{
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	}
 	.pop-container{
 	    position: absolute;
 	    top: 50%;
@@ -62,6 +70,7 @@
 	    transform: translate(-50%, -50%);
 	   	max-width: 95vw;
 	   	width: 700px;
+	   	z-index: 2;
 
 	    .video__container iframe, .video__container object, .video__container embed {
 			position:absolute;

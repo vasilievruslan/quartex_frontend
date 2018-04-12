@@ -156,6 +156,10 @@ $(function () {
 		$('.pop-up').fadeOut(400);
 		stopVideo($('#qvideo'))
 	});
+	$('.pop-layout').click(function(){
+		$('.pop-up').fadeOut(400);
+		stopVideo($('#qvideo'))
+	})
 
 
 	//scrollTo

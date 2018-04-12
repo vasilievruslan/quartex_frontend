@@ -52,3 +52,27 @@ $('.points_point').on('click', function(event) {
     $('.cards').find('.' + index).removeClass('animate')
   }, 200)
 });
+
+setInterval(function(){
+
+  $('.cards').find('[data-card-id="3"]').addClass('animate').attr('data-card-id', '0').siblings().each(function(){
+    var i = $(this).attr('data-card-id');
+    i++
+    $(this).attr('data-card-id', i);
+  });
+
+  setTimeout(function(){
+    $('.cards_inner__card').removeClass('animate');
+  }, 200);
+  
+  
+  
+  if(p < 3){
+    $('.points').find('.active').removeClass('active').next().addClass('active');
+    p++;
+  } else {
+    $('.points').find('.active').removeClass('active')
+    $('.points').find('.first').addClass('active') 
+    p = 0
+  }
+}, 5000)

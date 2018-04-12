@@ -197,15 +197,15 @@
                 </text>
                 <text id="EXCHANGE-1$" font-family="RobotoMono-Regular, Roboto Mono" font-size="25" font-weight="normal" fill="#FFFFFF">
                         <tspan x="466.490234" y="262">EXCHANGE</tspan>
-                        <tspan x="511.497559" y="291">1$</tspan>
+                        <tspan x="511.497559" y="291">$1</tspan>
                     </text>
                     <text id="SALE-0,5$" font-family="RobotoMono-Regular, Roboto Mono" font-size="25" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="296" y="362">SALE</tspan>
-                        <tspan x="296" y="391">0,084$</tspan>
+                        <tspan x="296" y="362">TGE</tspan>
+                        <tspan x="296" y="391">$0,084</tspan>
                     </text>
                     <text id="PRE-SALE-0,01$" font-family="RobotoMono-Regular, Roboto Mono" font-size="35" font-weight="normal" fill="#FFFFFF">
                         <tspan x="41.4777832" y="288">PRE-SALE</tspan>
-                        <tspan x="72.9914551" y="329">0,052$</tspan>
+                        <tspan x="72.9914551" y="329">$0,052</tspan>
                     </text>
             </g>
         </g>
