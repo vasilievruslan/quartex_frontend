@@ -120,7 +120,16 @@
 
 @media screen and (max-width: 425px) {
 	.playbtn__toolkit{
-		display: none;
+		.toolkit__text{
+			top: 130px;
+		    transform: translateX(-71%);
+		    width: 116px;
+		    text-align: center;
+		}
+
+		svg{
+			display: none;
+		}
 	}
 	.banner__content{
 		margin-top: 260px;
