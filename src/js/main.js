@@ -63,7 +63,6 @@ $(function () {
 		var sb = $(this).scrollTop() + $(this).height();
 		var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
 		if(sb > mp){
-		console.log('now')
 		progress.play()
 		}
 	});
@@ -92,7 +91,6 @@ $(function () {
 		$('#btc_usd').html(Math.floor(data.btc_usd.avg));
 		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
 
-		console.log(Math.floor(data.eth_usd.avg).toString().length)
 	}, 'jsonp');
 
 
