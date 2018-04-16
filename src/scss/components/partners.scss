@@ -1,0 +1,28 @@
+.partners{
+	background: #fff;
+}
+
+.partners__title{
+	font-size: 37px;
+	text-align: center;
+	margin: 118px 0px;
+}
+.partners__container{
+	@extend %wrapper;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.partners__item{
+	width: 196px;
+	height: 85px;
+	border-radius: 13px;
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.partners__img{
+	max-width: 195px;
+	max-height: 50px;
+}
