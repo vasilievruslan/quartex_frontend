@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="52px" height="53px" viewBox="0 0 52 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>500</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-6.0%" y="-9.8%" width="111.9%" height="127.3%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="mainPageQuartz-Copy-2" transform="translate(-715.000000, -9319.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <g id="mainPageQuartz-Copy-2" transform="translate(-725.000000, -9324.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <g id="partners" transform="translate(0.000000, 8660.000000)">
-                <g id="Group-6" filter="url(#filter-1)" transform="translate(604.000000, 626.000000)">
+                <g id="Group-6" transform="translate(604.000000, 626.000000)">
                     <g id="500" transform="translate(120.976134, 38.469945)">
                         <path d="M51.5928037,0.222806065 L51.5928037,51.6395903 L0.188482511,51.6395903 C0.204474967,39.909708 0.220467422,28.1798256 0.236459878,16.4499432 C0.236459878,11.0408975 0.205617285,5.63185177 0.188482511,0.222806065 L51.5928037,0.222806065 Z M48.1898377,3.71229182 L3.67712245,3.71229182 L3.67712245,48.1706713 L48.1898377,48.1706713 L48.1898377,3.71229182 Z" id="Shape"></path>
                         <path d="M31.1510187,25.9928983 C31.2229847,33.1912481 28.8892285,32.3925741 23.4986287,32.3171628 C21.7851513,32.2931683 20.6302676,31.2888271 20.5171781,29.5749343 C20.3092159,27.1410726 20.3092159,24.6939016 20.5171781,22.2600398 C20.750211,20.0594014 21.88796,19.4972446 24.8522758,19.4835335 C29.46153,19.4629667 30.21546,19.778323 30.746638,22.2531842 C31.0139405,23.4803315 31.0242213,24.7486122 31.1510187,25.9928983 Z M27.9810855,26.0717374 L28.0564785,26.0717374 C27.9845125,25.0434017 27.9879394,24.015066 27.8234456,23.0210082 C27.5595701,21.3859545 26.202496,21.9926725 25.2258139,21.8864112 C24.30739,21.7972887 23.4437974,21.9789614 23.4232357,23.1478363 C23.3889662,25.0125517 23.3718314,26.8841226 23.4814939,28.7454102 C23.5979021,29.2563624 23.9559872,29.6784936 24.4410413,29.8765795 C26.9906956,30.5621366 27.867996,29.8765795 27.9810855,27.2646068 C27.9947933,26.8669837 27.9810855,26.4693605 27.9810855,26.0717374 Z" id="Shape"></path>

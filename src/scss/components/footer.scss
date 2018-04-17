@@ -18,23 +18,23 @@
 		display: block;
 		width: 22px;
 		height: 18px;
-		background-size: contain;
+		background-size: cover;
 	}
 }
 .medium{
-	background: url('../img/medium.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -91px 0 no-repeat;
 	margin-right: 16px;
 }
 .twitter{
-	background: url('../img/twitter.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -114px 0 no-repeat;
 	margin-right: 16px;
 }
 .telegram{
-	background: url('../img/telegram-min.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -136px 0 no-repeat;
 	margin-right: 16px;
 }
 .linkedin{
-	background: url('../img/linkedin.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -68px 0 no-repeat;
 }
 
 

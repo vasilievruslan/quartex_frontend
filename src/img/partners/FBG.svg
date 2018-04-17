@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="227px" height="72px" viewBox="0 0 227 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="207px" height="53px" viewBox="0 0 207 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>FBG</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-6.0%" y="-9.8%" width="111.9%" height="127.3%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="mainPageQuartz-Copy-2" transform="translate(-1049.000000, -9319.000000)" fill="#FFFFFF" fill-rule="nonzero">
+        <g id="mainPageQuartz-Copy-2" transform="translate(-1059.000000, -9324.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <g id="partners" transform="translate(0.000000, 8660.000000)">
-                <g id="Group-5" filter="url(#filter-1)" transform="translate(1016.000000, 626.000000)">
+                <g id="Group-5" transform="translate(1016.000000, 626.000000)">
                     <g id="FBG" transform="translate(43.355609, 38.469945)">
                         <path d="M195.305021,51.1185669 L206.257891,51.1357192 C206.230432,51.8972822 205.657216,51.4513219 205.399785,51.4547524 C202.02571,51.4924875 198.648203,51.4787656 195.274129,51.4787656 L195.305021,51.1185669 Z" id="Shape"></path>
                         <path d="M205.94554,21.6875996 C205.94554,18.5066146 205.962702,15.3256295 206.000459,12.1446444 C206.000459,11.5413542 205.787648,10.8866471 206.26819,10.3484848 L206.26819,21.6601773 L205.94554,21.6875996 Z" id="Shape"></path>
