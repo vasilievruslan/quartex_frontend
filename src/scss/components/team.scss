@@ -68,17 +68,17 @@
 		display: inline-block;
 		width: 22px;
 		height: 18px;
-		background-size: contain;
+		background-size: cover;
 	}
 }
 
 .twitter-w{
-	background: url('../img/twitter-w.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -22px 0 no-repeat;
 	margin-right: 16px;
 }
 
 .linkedin-w{
-	background: url('../img/linkedin-w.svg') 0 0 no-repeat;
+	background: url('../img/socials-sprite.svg') 0 0 no-repeat;
 }
 
 
