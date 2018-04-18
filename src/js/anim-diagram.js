@@ -3,8 +3,8 @@ var animCycles = [anime({
     r: [function(target) {
         return target.getAttribute('r') * 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -13,8 +13,8 @@ var animCycles = [anime({
     r: [function(target) {
         return target.getAttribute('r') / 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -23,18 +23,18 @@ var animCycles = [anime({
     r: [function(target) {
         return target.getAttribute('r') / 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
 }), anime({
     targets: '#fdOval-5-Copy-7',
     r: [function(target) {
-        return target.getAttribute('r') * 1.2;
+        return target.getAttribute('r') * 1.4;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -45,18 +45,18 @@ var animCycles1 = [anime({
     r: [function(target) {
         return target.getAttribute('r') / 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
 }), anime({
     targets: '#tOval-5',
     r: [function(target) {
-        return target.getAttribute('r') * 1.2;
+        return target.getAttribute('r') * 1.1;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -65,8 +65,8 @@ var animCycles1 = [anime({
     r: [function(target) {
         return target.getAttribute('r') / 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -75,8 +75,8 @@ var animCycles1 = [anime({
     r: [function(target) {
         return target.getAttribute('r') / 1.2;
     }],
-    easing: 'linear',
-    duration: 3000,
+    easing: 'easeInCubic',
+    duration: 2000,
     loop: true,
     direction: 'alternate',
     autoplay: false,
@@ -94,7 +94,7 @@ var firstDiargrams1 = setInterval(function () {
     clearInterval(firstDiargrams1)
   }
     
-}, 1000);
+}, 700);
 
 var firstDiargrams = setInterval(function () {
   if(i <= 3){
@@ -104,7 +104,7 @@ var firstDiargrams = setInterval(function () {
     clearInterval(firstDiargrams)
   }
     
-}, 1000)
+}, 900)
 
 // for (var i = animCycles.length - 1; i >= 0; i--) {
 //   var sec = i * 1000;
