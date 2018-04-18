@@ -23,6 +23,7 @@ $(function () {
 		autoplaySpeed: 3000,
 		fade: true,
 		dots: true,
+		pauseOnDotsHover: true,
 	})
 	
 	$('.carousel').slick({
@@ -31,6 +32,7 @@ $(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
+		pauseOnDotsHover: true,
 		responsive: [
 	    {
 	      breakpoint: 824,
@@ -213,5 +215,7 @@ $(function () {
 		.find('.item__p')
 		.slideUp(400);
     });
+
+    //= anim-diagram.js
 	
 })
