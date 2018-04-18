@@ -1,4 +1,7 @@
 .access-form{
+	background-color: #fafbfc;
+}
+.access-form__container{
 	@extend %wrapper;
 	padding-top: 45px;
 	padding-bottom: 45px;
@@ -17,6 +20,7 @@
 	margin-bottom: 70px;
 }
 .access-form__input{
+	background-color: transparent;
 	display: block;
 	box-sizing: border-box;
 	border: none;

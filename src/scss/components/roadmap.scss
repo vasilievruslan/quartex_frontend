@@ -1,11 +1,13 @@
 .roadmap{
+	background-color: #fafbfc;
+}
+.roadmap__container{
 	@extend %wrapper;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 170px;
-	margin-bottom: 180px;
-
+	padding-top: 170px;
+	padding-bottom: 180px;
 }
 .roadmap__text{
 	max-width: 310px;
