@@ -9,6 +9,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 100px;
 }
 .faq__block__title{
 	margin: 90px 0px
@@ -25,6 +26,7 @@
 }
 
 .faq__item{
+	cursor: pointer;
 	width: 480px;
 	max-width: 100%;
 	padding: 35px;
@@ -32,11 +34,21 @@
 	border-radius: 19px;
 	margin: 20px 0;
 	box-sizing: border-box;
+	position: relative;
 
 	&:after{
 		content: '';
 		width: 24px;
 		height: 12px;
+		background-size: cover;
+		background: url('../img/slidebtn.svg') left top no-repeat;
+		position: absolute;
+		top: 40px;
+		right: 25px;
+		transition: transform 0.4s;
+	}
+	&.active:after{
+		transform: rotate(180deg);
 	}
 }
 .item__title{

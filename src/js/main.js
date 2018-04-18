@@ -5,6 +5,13 @@
 //= jquery.touchSwipe.min.js
 
 $(function () {
+
+	$.get('https://wex.nz/api/3/ticker/btc_usd-eth_usd', function(data) {
+		
+		$('#btc_usd').html(Math.floor(data.btc_usd.avg));
+		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
+
+	}, 'jsonp');
 	
 	//= cards-slider.js
 
@@ -44,12 +51,16 @@ $(function () {
 	    }]
 	});
 
+	//menu navbar
+
 	$('.bt-menu').click(function(e) {
 		e.preventDefault();
     	$(this).toggleClass('active');
     	$('.header__container').toggleClass('active');
     	$('.header__nav').toggleClass('open');
 	});
+
+	// roadmap
 
 	$(window).scroll(function(){
 		if ( $(window).scrollTop() > 43 ) {
@@ -61,9 +72,15 @@ $(function () {
 		}
 
 		var sb = $(this).scrollTop() + $(this).height();
-		var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
+		
+		try {
+			var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
+		} catch(e) {
+			console.log(e);
+		}
+
 		if(sb > mp){
-		progress.play()
+			progress.play()
 		}
 	});
 
@@ -85,14 +102,6 @@ $(function () {
 		$('.rm__arrow').toggleClass('active');
 		$('.roadmap__responsive__button').toggleClass('active');
 	});
-
-	$.get('https://wex.nz/api/3/ticker/btc_usd-eth_usd', function(data) {
-		
-		$('#btc_usd').html(Math.floor(data.btc_usd.avg));
-		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
-
-	}, 'jsonp');
-
 
 	// countdown
 
@@ -188,6 +197,21 @@ $(function () {
                 });
             }
         }
+    });
+
+
+    // faq accordion
+
+    $('.faq__item').click(function(event) {
+    	$(this)
+    	.toggleClass('active')
+		.find('.item__p')
+		.slideToggle(400)
+		.parent()
+		.siblings()
+		.removeClass('active')
+		.find('.item__p')
+		.slideUp(400);
     });
 	
 })
