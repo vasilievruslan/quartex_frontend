@@ -348,6 +348,9 @@
             box-sizing: border-box;
             align-items: center;
             justify-content: center;
+            a{
+                line-height: 0;
+            }
 
             svg {
                 transform: scale(1);
