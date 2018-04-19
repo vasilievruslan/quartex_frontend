@@ -94,17 +94,17 @@
 
 @media screen and (max-width: 425px) {
 
-	.team__container{
-		&.--team{
-			display: none;
-		}
-		&.--advisors{
-			display: none;
-		}
-		&.--responsive{
-			display: flex;
-		}
-	}
+	// .team__container{
+	// 	&.--team{
+	// 		display: none;
+	// 	}
+	// 	&.--advisors{
+	// 		display: none;
+	// 	}
+	// 	&.--responsive{
+	// 		display: flex;
+	// 	}
+	// }
 	.member__block{
 		padding: 0px 40px 40px;
 	}
