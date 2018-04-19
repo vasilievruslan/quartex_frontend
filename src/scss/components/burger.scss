@@ -176,13 +176,13 @@
 
 .header__nav {
     position: absolute;
-    top: 170px;
+    top: 135px;
     left: 40px;
 
     
-    &.open {
-        height: 232px;
-    }
+    // &.open {
+    //     height: 232px;
+    // }
     .nav__item {
         display: block;
         color: #fff;
@@ -284,7 +284,7 @@
             transition: all 0.4s;
         }
         .header__nav {
-            top: 270px;
+            top: 230px;
         }
         &.scroll {
             .responsive-navbar{
@@ -297,7 +297,7 @@
               transform: translateX(0);
             }
             .header__nav {
-                top: 170px;
+                top: 130px;
                 transition: all .3s;
             }
             header {
