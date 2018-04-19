@@ -35,7 +35,7 @@
 	cursor: pointer;
 	width: 480px;
 	max-width: 100%;
-	padding: 35px;
+	padding: 15px 35px;
 	padding-right: 60px;
 	border-radius: 28px;
 	border-radius: 19px;
@@ -50,7 +50,7 @@
 		background-size: cover;
 		background: url('../img/slidebtn.svg') left top no-repeat;
 		position: absolute;
-		top: 60px;
+		top: 40px;
 		right: 25px;
 		transition: transform 0.4s;
 	}
