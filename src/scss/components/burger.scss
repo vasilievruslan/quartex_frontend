@@ -143,13 +143,14 @@
     width: 40px;
     height: 40px;
     margin: 10px 20px 10px 0;
-    background-size: contain;
+    background-size: cover;
+    background-image: url('../img/header-icos.svg');
 
     &.--telegramm {
-        background-image: url('../img/telegramm.svg');
+        background-position-x: 0;
     }
-    &.--slack {
-        background-image: url('../img/slack.svg');
+    &.--kakao {
+        background-position-x: 40px;
     }
 }
 

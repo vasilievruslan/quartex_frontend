@@ -17,10 +17,11 @@
 }
 .about__columns__container{
 	display: flex;
+	justify-content: space-around;
 }
 .about__column{
 	width: 100%;
-	max-width: 450px;
+	max-width: 485px;
 	margin: 20px;
 }
 .about__links{
@@ -35,7 +36,9 @@
 	}
 
 }
-
+.about__text{
+	width: 100%;
+}
 .about__getapp{
 	flex-grow: 2;
 	width: 100%;
