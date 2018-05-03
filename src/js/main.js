@@ -4,6 +4,12 @@
 //= anime.min.js
 //= jquery.touchSwipe.min.js
 
+$(document).ready(function(){
+	setTimeout(function () {
+		$('.loader').fadeOut(600);
+	}, 1500)
+})
+
 $(function () {
 
 	$.get('https://wex.nz/api/3/ticker/btc_usd-eth_usd', function(data) {
