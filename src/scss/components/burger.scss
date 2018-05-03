@@ -146,10 +146,10 @@
     background-size: cover;
     background-image: url('../img/header-icos.svg');
 
-    &.--telegramm {
+    &.--kakao {
         background-position-x: 0;
     }
-    &.--kakao {
+    &.--telegramm {
         background-position-x: 40px;
     }
 }

@@ -33,7 +33,7 @@
     background-size: cover !important;
 
     &.animate{
-      transform: translateX(-500px) !important;
+      transform: translateX(-500px) rotate(-30deg) !important;
     }
 
     &[data-card-id="0"]{

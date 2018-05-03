@@ -29,10 +29,13 @@ $('.cards_inner__card').swipe({
   allowPageScroll: 'auto',
 });
 
+
+// on click to points
+
 var sibI = [0, 1, 2];
-var i = 0
 
 $('.points_point').on('click', function(event) {
+  var i = 0;
   p = parseFloat($(this).attr('data-id'));  
   event.preventDefault();
   $(this).addClass('active').siblings().removeClass('active');
@@ -52,6 +55,9 @@ $('.points_point').on('click', function(event) {
     $('.cards').find('.' + index).removeClass('animate')
   }, 200)
 });
+
+
+// autoslide
 
 var changeSlide = null;
 
@@ -81,7 +87,7 @@ function autoSlide () {
 
 autoSlide();
 
-$('.cards_inner__card').hover(function() {
+$('.cards_inner__card, .points_point').hover(function() {
   clearInterval(changeSlide)
 }, function() {
   autoSlide();
