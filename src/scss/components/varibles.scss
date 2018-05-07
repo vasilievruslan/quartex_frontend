@@ -1,4 +1,4 @@
-// @import url('https://font: normal|italic|oblique normal|small-caps normal|bold|bolder|lighter 1em/1.5 sans-serif;ts.googleapis.com/css?family=Roboto+Mono:400,400i,500,700|Roboto:300,400,400i,500,700');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Roboto+Mono:400,500,700');
 @font-face{
 	font-family: 'Roboto Mono', monospace;
 	src: url(../fonts/Roboto_Mono/RobotoMono-Regular.ttf);
@@ -32,7 +32,7 @@ html{
 }
 body{
 	font-size: 16px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', 'Do Hyeon', monospace;
 	max-width: 100vw;
 	overflow-x: hidden;
 }

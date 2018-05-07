@@ -130,7 +130,6 @@
         }
         background: #201f44;
         position: fixed;
-        .header {}
     }
     &.active {
         background: #201f44;
@@ -151,6 +150,17 @@
     }
     &.--telegramm {
         background-position-x: 40px;
+    }
+    &.--switcher{
+        background-image: none;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #201F44;
+        text-decoration: none;
+        text-transform: uppercase;
     }
 }
 
@@ -257,6 +267,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: nowrap;
             position: absolute;
             width: 100%;
             top: 140px;
