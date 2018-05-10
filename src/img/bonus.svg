@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1206px" height="706px" viewBox="0 0 1206 706" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>table</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="700" rx="28"></rect>
+        <filter x="-0.3%" y="-0.6%" width="100.8%" height="101.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="207" height="155"></rect>
+        <path d="M0,155 L207,155 L207,282 C207,297.463973 194.463973,310 179,310 L0,310 L0,155 Z" id="path-4"></path>
+        <rect id="path-5" x="0" y="0" width="207" height="155"></rect>
+        <rect id="path-6" x="0" y="0" width="207" height="155"></rect>
+        <rect id="path-7" x="0" y="0" width="400" height="155"></rect>
+        <rect id="path-8" x="0" y="0" width="296" height="155"></rect>
+        <rect id="path-9" x="0" y="0" width="400" height="155"></rect>
+        <rect id="path-10" x="0" y="0" width="296" height="155"></rect>
+        <rect id="path-11" x="0" y="0" width="400" height="155"></rect>
+        <rect id="path-12" x="0" y="0" width="296" height="155"></rect>
+        <path d="M0,0 L297,0 L297,465 L28,465 C12.536027,465 1.8937905e-15,452.463973 0,437 L0,0 Z" id="path-13"></path>
+        <rect id="path-14" x="0" y="0" width="400" height="155"></rect>
+        <rect id="path-15" x="0" y="0" width="593" height="155"></rect>
+        <path d="M0,0 L179,0 C194.463973,-2.84068575e-15 207,12.536027 207,28 L207,80 L0,80 L0,0 Z" id="path-16"></path>
+        <rect id="path-17" x="0" y="0" width="400" height="80"></rect>
+        <path d="M28,0 L593,0 L593,80 L0,80 L0,28 C-1.8937905e-15,12.536027 12.536027,2.84068575e-15 28,0 Z" id="path-18"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="crowdsalePage" transform="translate(-358.000000, -3220.000000)">
+            <g id="bonus" transform="translate(360.000000, 3092.000000)">
+                <g id="table" transform="translate(0.000000, 130.000000)">
+                    <g id="Rectangle-28">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#696EFB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="20%" transform="translate(993.000000, 390.000000)">
+                        <g id="Rectangle-28-Copy-13">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="206" height="154"></rect>
+                        </g>
+                        <circle id="Oval-12-Copy-2" cx="103.5" cy="77.5" r="45.5"></circle>
+                        <text font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="65" y="92">20%</tspan>
+                        </text>
+                        <g id="Rectangle-28-Copy-15">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <path stroke="#333333" stroke-width="1" d="M0.5,155.5 L0.5,309.5 L179,309.5 C194.187831,309.5 206.5,297.187831 206.5,282 L206.5,155.5 L0.5,155.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="40%" transform="translate(993.000000, 235.000000)">
+                        <g id="Rectangle-28-Copy-11">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="206" height="154"></rect>
+                        </g>
+                        <circle id="Oval-12-Copy" cx="103.5" cy="77.5" r="45.5"></circle>
+                        <text font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="65" y="92">40%</tspan>
+                        </text>
+                    </g>
+                    <g id="60%" transform="translate(993.000000, 80.000000)">
+                        <g id="Rectangle-28-Copy-9">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="206" height="154"></rect>
+                        </g>
+                        <circle id="Oval-12" cx="103.5" cy="77.5" r="45.5"></circle>
+                        <text font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="65" y="92">60%</tspan>
+                        </text>
+                    </g>
+                    <g id="4price" transform="translate(593.000000, 545.000000)">
+                        <g id="Rectangle-28-Copy-14">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="399" height="154"></rect>
+                        </g>
+                        <text id="0,0002-ETH" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="68" y="93">0,0002 ETH</tspan>
+                        </text>
+                    </g>
+                    <g id="stage3" transform="translate(297.000000, 545.000000)">
+                        <g id="Rectangle-28-Copy-17">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="295" height="154"></rect>
+                        </g>
+                        <text id="Stage-3" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="56" y="67">Stage 3</tspan>
+                        </text>
+                        <text id="From-Stage-2-end-to" font-family="RobotoMono-Regular, Roboto Mono" font-size="24" font-weight="normal" fill="#333333">
+                            <tspan x="47" y="110">From Stage 2 end </tspan>
+                            <tspan x="47" y="138">to sale close</tspan>
+                        </text>
+                    </g>
+                    <g id="3price" transform="translate(593.000000, 390.000000)">
+                        <g id="Rectangle-28-Copy-12">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="399" height="154"></rect>
+                        </g>
+                        <text id="0,0001667-ETH" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="28" y="93">0,0001667 ETH</tspan>
+                        </text>
+                    </g>
+                    <g id="stage2" transform="translate(297.000000, 390.000000)">
+                        <g id="Rectangle-28-Copy-16">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="295" height="154"></rect>
+                        </g>
+                        <text id="Stage-2" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="56" y="67">Stage 2</tspan>
+                        </text>
+                        <text id="Next-2-days-after-St" font-family="RobotoMono-Regular, Roboto Mono" font-size="24" font-weight="normal" fill="#333333">
+                            <tspan x="47" y="106">Next 2 days </tspan>
+                            <tspan x="47" y="134">after Stage 1</tspan>
+                        </text>
+                    </g>
+                    <g id="2price" transform="translate(593.000000, 235.000000)">
+                        <g id="Rectangle-28-Copy-10">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="399" height="154"></rect>
+                        </g>
+                        <text id="0,0001429-ETH" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="28" y="93">0,0001429 ETH</tspan>
+                        </text>
+                    </g>
+                    <g id="stage1" transform="translate(297.000000, 235.000000)">
+                        <g id="Rectangle-28-Copy-18">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="295" height="154"></rect>
+                        </g>
+                        <text id="Stage-1" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="56" y="67">Stage 1</tspan>
+                        </text>
+                        <text id="First-12-hours" font-family="RobotoMono-Regular, Roboto Mono" font-size="24" font-weight="normal" fill="#333333">
+                            <tspan x="47" y="134">First 12 hours</tspan>
+                        </text>
+                    </g>
+                    <g id="ICO" transform="translate(0.000000, 235.000000)">
+                        <g id="Group-4">
+                            <g id="Rectangle-28-Copy-19">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                <path stroke="#333333" stroke-width="1" d="M0.5,0.5 L0.5,437 C0.5,452.187831 12.8121694,464.5 28,464.5 L296.5,464.5 L296.5,0.5 L0.5,0.5 Z"></path>
+                            </g>
+                            <text id="ICO" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                                <tspan x="108" y="67">ICO</tspan>
+                            </text>
+                            <text id="(25000-ETH)" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                                <tspan x="3" y="127">(25000 ETH)</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="1price" transform="translate(593.000000, 80.000000)">
+                        <g id="Rectangle-28-Copy-8">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="399" height="154"></rect>
+                        </g>
+                        <text id="0,000125-ETH" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="42" y="93">0,000125 ETH</tspan>
+                        </text>
+                    </g>
+                    <g id="PRE-SALE" transform="translate(0.000000, 80.000000)">
+                        <g id="Rectangle-28-Copy-4">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                            <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="592" height="154"></rect>
+                        </g>
+                        <text font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="191" y="67">PRE-SALE</tspan>
+                        </text>
+                        <text id="(4000-ETH)" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#333333">
+                            <tspan x="164" y="119">(4000 ETH)</tspan>
+                        </text>
+                    </g>
+                    <g id="bonus" transform="translate(993.000000, 0.000000)">
+                        <g id="Rectangle-28-Copy-3">
+                            <use fill="#696EFB" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <path stroke="#333333" stroke-width="1" d="M0.5,0.5 L0.5,79.5 L206.5,79.5 L206.5,28 C206.5,12.8121694 194.187831,0.5 179,0.5 L0.5,0.5 Z"></path>
+                        </g>
+                        <text id="Bonus" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="37" y="55">Bonus</tspan>
+                        </text>
+                    </g>
+                    <g id="price" transform="translate(593.000000, 0.000000)">
+                        <g id="Group-3">
+                            <g id="Rectangle-28-Copy-2">
+                                <use fill="#696EFB" fill-rule="evenodd" xlink:href="#path-17"></use>
+                                <rect stroke="#333333" stroke-width="1" x="0.5" y="0.5" width="399" height="79"></rect>
+                            </g>
+                            <text id="Price" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="134" y="55">Price</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="stagesColomn">
+                        <g id="Rectangle-28-Copy">
+                            <use fill="#696EFB" fill-rule="evenodd" xlink:href="#path-18"></use>
+                            <path stroke="#333333" stroke-width="1" d="M0.5,79.5 L592.5,79.5 L592.5,0.5 L28,0.5 C12.8121694,0.5 0.5,12.8121694 0.5,28 L0.5,79.5 Z"></path>
+                        </g>
+                        <text id="Stages" font-family="RobotoMono-Regular, Roboto Mono" font-size="44" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="217" y="55">Stages</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

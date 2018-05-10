@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="686px" viewBox="0 0 467 686" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="421" height="198" rx="18"></rect>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#BB8DEA" offset="0%"></stop>
+            <stop stop-color="#9D88D0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="421" height="198" rx="18"></rect>
+        <linearGradient x1="48.2227445%" y1="97.482388%" x2="48.2227445%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#FAFBFC" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FAFBFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chat" style="mix-blend-mode: darken;">
+            <g id="optionButtons" transform="translate(24.000000, 330.000000)">
+                <g id="optionButton">
+                    <rect id="Rectangle-3" fill="#D8D8D8" fill-rule="nonzero" x="0" y="0" width="120" height="57" rx="20"></rect>
+                    <text id="BTC" fill="#FFFFFF" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal">
+                        <tspan x="42" y="36">BTC</tspan>
+                    </text>
+                </g>
+                <g id="optionButton" transform="translate(150.000000, 0.000000)">
+                    <rect id="Rectangle-3" fill="#D8D8D8" fill-rule="nonzero" x="0" y="0" width="120" height="57" rx="20"></rect>
+                    <g id="ETH" transform="translate(42.000000, 17.000000)" fill="#FFFFFF" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="19">ETH</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="optionButton" transform="translate(300.000000, 0.000000)">
+                    <rect id="Rectangle-3" fill="#D8D8D8" fill-rule="nonzero" x="0" y="0" width="120" height="57" rx="20"></rect>
+                    <g id="USD" transform="translate(42.000000, 17.000000)" fill="#FFFFFF" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="19">USD</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="exampleRate" transform="translate(23.000000, 488.000000)">
+                <g id="Rectangle-2">
+                    <g id="path-1-link" fill="#000000" fill-rule="nonzero">
+                        <rect id="path-1" x="0" y="0" width="421" height="198" rx="18"></rect>
+                    </g>
+                    <g id="path-1-link" fill="#FFFFFF">
+                        <rect id="path-1" x="0" y="0" width="421" height="198" rx="18"></rect>
+                    </g>
+                </g>
+                <g id="Path-4-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <polyline id="Path-4" stroke="url(#linearGradient-3)" stroke-width="5" stroke-linejoin="round" mask="url(#mask-2)" points="-0.78698478 134.363551 7.07304889 115.843731 16.3346214 115.843731 18.9559257 108.589424 33.79539 107.692749 38.9376908 128.203763 50.2691516 157.039219 58.9388524 154.977089 66.7501176 163.402394 94.3297859 165.843033 106.179411 169.93127 118.021833 161.101963 124.776263 168.940384 133.16222 158.703997 138.327243 145.629064 143.000702 150.600121 151.667631 145.629064 156.915228 157.039219 163.581543 149.764961 169.825013 153.305107 176.788372 131.791569 186.671188 131.791569 192.793292 136.033871 197.173585 147.14809 204.488853 140.486763 211.087557 121.834492 217.31274 120.631906 235.188594 87.5818587 245.433294 90.3045792 262.395295 107.692749 275.453602 92.6637531 280.023428 113.590961 285.309263 119.132831 291.460184 117.626551 300.850882 131.048959 316.405247 133.161519 321.26713 113.590961 328.657213 124.33443 330.123037 130.335166 338.671925 128.756564 345.469028 137.908131 354.871364 110.64047 370.737183 78.5790915 390.706756 91.7521156 399.810939 80.029953 406.369188 83.9735474 411.253792 73.950522 422.695536 88.4901711"></polyline>
+                </g>
+                <g id="top-Clipped">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <g id="top" mask="url(#mask-5)">
+                        <g transform="translate(29.000000, 26.000000)" id="Group">
+                            <g>
+                                <g id="text" fill="#333333" font-size="16" font-weight="normal">
+                                    <text id="NEO/BTC-율" font-family="RobotoMono-Regular, Roboto Mono">
+                                        <tspan x="0" y="15">NEO/BTC </tspan>
+                                        <tspan x="76.8125" y="15" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">율</tspan>
+                                    </text>
+                                    <text id="세부-정보-표시" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">
+                                        <tspan x="230" y="14">세부</tspan>
+                                        <tspan x="257.68" y="14" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                                        <tspan x="267.281563" y="14">정보</tspan>
+                                        <tspan x="294.961563" y="14" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                                        <tspan x="304.563125" y="14">표시</tspan>
+                                        <tspan x="332.243125" y="14" font-family="RobotoMono-Regular, Roboto Mono"></tspan>
+                                    </text>
+                                </g>
+                                <g id="featuresArrow" opacity="0.5" transform="translate(343.000000, 4.000000)" fill="#333333" fill-rule="nonzero">
+                                    <path d="M1,6.74342401 L16.586,6.74342401 L11.222,10.731088 C10.8315,11.0213905 10.8315,11.4921564 11.22175,11.7822731 C11.61225,12.0725756 12.24575,12.0725756 12.63625,11.7822731 L19.707,6.52560418 C19.7535,6.4910355 19.795,6.45293562 19.8315,6.41241965 C19.84825,6.39364848 19.86,6.3733905 19.8745,6.35387592 C19.891,6.33083014 19.91,6.30889947 19.92325,6.28455272 C19.9375,6.25946255 19.9455,6.23344312 19.9555,6.20742368 C19.96375,6.18679399 19.9745,6.16709356 19.98025,6.14590631 C19.99325,6.0975845 20,6.04889099 20,6.00001163 C20,5.99945407 19.99975,5.99889651 19.99975,5.99833895 C19.9995,5.950203 19.993,5.90188119 19.98025,5.85448866 C19.97425,5.83218628 19.963,5.81155659 19.95425,5.78962593 C19.9445,5.76490746 19.937,5.7398173 19.9235,5.71584225 C19.909,5.69000867 19.8895,5.66659118 19.8715,5.64224442 C19.858,5.62403082 19.84725,5.60544551 19.83175,5.58797532 C19.79525,5.54690178 19.75325,5.50861605 19.7065,5.47386152 L12.636,0.217750138 C12.2455,-0.0725523964 11.61225,-0.0725523964 11.22175,0.217564285 C10.83125,0.507866819 10.83125,0.978632709 11.22175,1.26912109 L16.58575,5.25659925 L1,5.25659925 C0.44775,5.25659925 0,5.58946214 0,6.00001163 C0,6.41056111 0.44775,6.74342401 1,6.74342401 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="chatWindow" transform="translate(110.000000, 83.000000)">
+                <rect id="Rectangle-4" fill="#D8D8D8" fill-rule="nonzero" x="0" y="0" width="334" height="90" rx="10"></rect>
+                <g id="How-did-NEO-perfom-t" transform="translate(28.000000, 21.000000)" fill="#333333" font-family="RobotoMono-Regular, Roboto Mono" font-size="20" font-weight="normal">
+                    <text id="NEO는-이번-주에-어떻게-수행-했습">
+                        <tspan x="0" y="19">NEO</tspan>
+                        <tspan x="36.0058594" y="19" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">는</tspan>
+                        <tspan x="53.3058594" y="19"> </tspan>
+                        <tspan x="65.3078125" y="19" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">이번</tspan>
+                        <tspan x="99.9078125" y="19"> </tspan>
+                        <tspan x="111.909766" y="19" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">주에</tspan>
+                        <tspan x="146.509766" y="19"> </tspan>
+                        <tspan x="158.511719" y="19" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">어떻게</tspan>
+                        <tspan x="210.411719" y="19"> </tspan>
+                        <tspan x="222.413672" y="19" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">수행</tspan>
+                        <tspan x="257.013672" y="19"> </tspan>
+                        <tspan x="0" y="44" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo">했습니까</tspan>
+                        <tspan x="69.2" y="44">?</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="chatText" transform="translate(22.000000, 222.000000)" fill="#333333" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="20" font-weight="normal">
+                <g id="Sure,-one-second,-pl" transform="translate(1.000000, 208.000000)">
+                    <text id="물론,-잠시만-요.">
+                        <tspan x="0" y="18">물론</tspan>
+                        <tspan x="34.6" y="18" font-family="RobotoMono-Regular, Roboto Mono">, </tspan>
+                        <tspan x="58.6039063" y="18">잠시만</tspan>
+                        <tspan x="110.503906" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="122.505859" y="18">요</tspan>
+                        <tspan x="139.805859" y="18" font-family="RobotoMono-Regular, Roboto Mono">.</tspan>
+                    </text>
+                </g>
+                <g id="Choose-your-option" transform="translate(2.000000, 36.000000)">
+                    <text id="옵션을-선택하십시오.">
+                        <tspan x="0" y="18">옵션을</tspan>
+                        <tspan x="51.9" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="63.9019531" y="18">선택하십시오</tspan>
+                        <tspan x="167.701953" y="18" font-family="RobotoMono-Regular, Roboto Mono">.</tspan>
+                    </text>
+                </g>
+                <g id="What-exchange-pair-a">
+                    <text id="어떤-교환-쌍을-찾고-있습니까?">
+                        <tspan x="0" y="18">어떤</tspan>
+                        <tspan x="34.6" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="46.6019531" y="18">교환</tspan>
+                        <tspan x="81.2019531" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="93.2039063" y="18">쌍을</tspan>
+                        <tspan x="127.803906" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="139.805859" y="18">찾고</tspan>
+                        <tspan x="174.405859" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                        <tspan x="186.407813" y="18">있습니까</tspan>
+                        <tspan x="255.607813" y="18" font-family="RobotoMono-Regular, Roboto Mono">?</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="How-can-I-assist-you" transform="translate(24.000000, 20.000000)" fill="#333333" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="20" font-weight="normal">
+                <text id="오늘-너를-어떻게-도울-수-있지,-마">
+                    <tspan x="0" y="18">오늘</tspan>
+                    <tspan x="34.6" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                    <tspan x="46.6019531" y="18">너를</tspan>
+                    <tspan x="81.2019531" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                    <tspan x="93.2039063" y="18">어떻게</tspan>
+                    <tspan x="145.103906" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                    <tspan x="157.105859" y="18">도울</tspan>
+                    <tspan x="191.705859" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                    <tspan x="203.707813" y="18">수</tspan>
+                    <tspan x="221.007813" y="18" font-family="RobotoMono-Regular, Roboto Mono"> </tspan>
+                    <tspan x="233.009766" y="18">있지</tspan>
+                    <tspan x="267.609766" y="18" font-family="RobotoMono-Regular, Roboto Mono">, </tspan>
+                    <tspan x="291.613672" y="18">마이크</tspan>
+                    <tspan x="343.513672" y="18" font-family="RobotoMono-Regular, Roboto Mono">?</tspan>
+                </text>
+            </g>
+            <rect id="grad" fill="url(#linearGradient-6)" fill-rule="nonzero" x="0" y="0" width="467" height="468"></rect>
+        </g>
+    </g>
+</svg>

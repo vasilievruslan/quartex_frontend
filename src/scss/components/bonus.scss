@@ -1,0 +1,12 @@
+.bonus__container{
+	@extend %wrapper;
+	text-align: center;
+}
+.bonus__table{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	img{
+		display: block;
+		max-width: 100%;
+	}
+}
