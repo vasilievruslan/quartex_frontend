@@ -122,7 +122,7 @@ $(function () {
 		hour = minute * 60,
 		day = hour * 24;
 
-	var countDown = new Date('Apr 26, 2018 00:00:00 UTC'),
+	var countDown = new Date('Jul26, 2018 00:00:00 UTC'),
 	x = setInterval(function() {
 
 		var now = new Date().getTime(),
