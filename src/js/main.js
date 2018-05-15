@@ -21,6 +21,11 @@ $(function () {
 		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
 
 	}, 'jsonp');
+
+	$('.block__btn').click(function(event) {
+		event.preventDefault();
+		$(this).find('.store__toolkit').fadeIn(300).delay(3000).fadeOut(600);
+	});
 	
 	//= cards-slider.js
 
@@ -108,10 +113,21 @@ $(function () {
 	}, 50)
 
 
-	$('.roadmap__responsive').click(function(event) {
-		$('.roadmap__responsive__container').slideToggle(600);
-		$('.rm__arrow').toggleClass('active');
-		$('.roadmap__responsive__button').toggleClass('active');
+	$('.roadmap__responsive').on('click', function(event) {
+
+		if($('.roadmap__responsive__button').is('.active')){
+			$('.roadmap__responsive__container').slideToggle(600);
+			setTimeout(function(){
+				$('.rm__arrow').toggleClass('active');
+				$('.roadmap__responsive__button').toggleClass('active');
+			}, 600)
+		}else{
+			$('.rm__arrow').toggleClass('active');
+			$('.roadmap__responsive__button').toggleClass('active');
+			setTimeout(function(){
+				$('.roadmap__responsive__container').slideToggle(600);
+			}, 200)
+		}
 	});
 
 	// countdown

@@ -47,10 +47,33 @@
 	}
 }
 .block__btns{
+
 	a{
 		text-decoration: none;
 	}
 }
+.block__btn{
+	position: relative;
+}
+.about__links__item{
+	.store__toolkit{
+		top: 50px;
+	}
+}
+.store__toolkit{
+	color: #fff;
+	font-size: 12px;	
+	top: 20px;
+	left: 0;
+	width: 153px;
+	padding: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	background: #000;
+	border-radius: 10px;
+	display: none;
+}
+
 .--banner-bottom{
 	max-width: 541px;
 }
