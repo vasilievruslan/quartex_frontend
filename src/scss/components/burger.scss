@@ -1,3 +1,30 @@
+.tocrowsale-btn{
+    display: block;
+    position: fixed;
+    width: 277px;
+    top: 50%;
+    left: 0;
+    font-size: 20px;
+    background: #6B70E5;
+    border-radius: 20px 20px 0 0;
+    padding: 16px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: rotate(90deg)translateY(140px);
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, .5);
+    .arrow{
+        position: absolute;
+        right: 23px;
+        top: 50%;
+        transform: translateY(-50%);
+        content: '';
+        width: 20px;
+        height: 12px;
+        background: transparent url('../img/arrow.svg') left top no-repeat;
+    }
+}
+
 /*
  * burger menu
  */
@@ -5,6 +32,7 @@
     position: fixed;
     bottom: 20px;
     left: 20px;
+    z-index: 4;
 }
 .block,
 .header__links_container {
@@ -292,7 +320,11 @@
 .block__links {
     display: flex;
 }
-
+@media screen and (max-width: 425px){
+    .tocrowsale-btn{
+        display: none;
+    }
+}
 @media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 600px) {
