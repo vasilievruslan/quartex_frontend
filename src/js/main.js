@@ -27,6 +27,11 @@ $(function () {
 		$(this).find('.store__toolkit').fadeIn(300).delay(3000).fadeOut(600);
 	});
 	
+	$('.kakao').click(function(event) {
+		event.preventDefault();
+		$(this).toggleClass('active');
+	});
+
 	//= cards-slider.js
 
 	$('.members__slider').slick({

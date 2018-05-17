@@ -1,28 +1,19 @@
 .tocrowsale-btn{
     display: block;
     position: fixed;
-    width: 277px;
+    width: 150px;
+    text-align: center;
     top: 50%;
     left: 0;
-    font-size: 20px;
+    font-size: 13px;
     background: #6B70E5;
     border-radius: 20px 20px 0 0;
-    padding: 16px 25px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    transform: rotate(90deg)translateY(140px);
+    padding: 10px 5px;
+    transform: rotate(90deg) translate(-20%, 65px);
     box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, .5);
-    .arrow{
-        position: absolute;
-        right: 23px;
-        top: 50%;
-        transform: translateY(-50%);
-        content: '';
-        width: 20px;
-        height: 12px;
-        background: transparent url('../img/arrow.svg') left top no-repeat;
-    }
 }
 
 /*
@@ -30,9 +21,49 @@
  */
 .kakao{
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 0;
+    left: 0;
     z-index: 4;
+    width: 64px;
+    height: 64px;
+    border-radius: 0 32px 32px 0;
+    background-color: #FDEB1D;
+    overflow: hidden;
+
+    transition: 0.2s ease-in-out;
+
+    &.active{
+        width: 190px;
+    }
+    .kakao__links{
+        width: 105px;
+        position: absolute;
+        left: 70px;
+        top: 2px;
+    }
+    .kakao__link{
+        color: #FDEB1D;
+        background-color: #332C2B;
+        border-radius: 6px;
+        padding: 2px 5px;
+        text-decoration: none;
+        display: block;
+        font-size: 10px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    &:before{
+        content: '';
+        width: 47px;
+        height: 43px;
+        top: 12px;
+        left: 8px;
+        background: url(../img/talk.svg) 0 0 no-repeat;
+        background-size: contain;
+        position: absolute;
+        cursor: pointer;
+    }
 }
 .block,
 .header__links_container {
