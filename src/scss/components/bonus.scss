@@ -10,3 +10,21 @@
 		max-width: 100%;
 	}
 }
+.discount{
+	background: #fafbfc;
+	padding: 10px 0px;
+}
+.discount__container{
+	@extend %wrapper;
+}
+.discount__title{
+	margin-bottom: 180px;
+	text-align: center;
+}
+.discount__diagram{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
+}
