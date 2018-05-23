@@ -96,7 +96,7 @@ $(function () {
 		try {
 			var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
 		} catch(e) {
-			console.log(e);
+
 		}
 
 		if(sb > mp){
@@ -180,23 +180,40 @@ $(function () {
 	// pop-up video
 
 	var stopVideo = function(player) {
-    var vidSrc = player.prop('src');
+		var vidSrc = player.prop('src');
 	    player.prop('src', ''); // to force it to pause
 	    player.prop('src', vidSrc);
 	};
 
+	function showPopUp(curPopUp) {
+		curPopUp
+		.fadeIn(400)
+		.addClass('active');
+	}
+	function closePopUp (){
+		stopVideo($('.pop-up.active').find('iframe'))
+		$('.pop-up.active')
+		.fadeOut(400)
+		.removeClass('active');
+	}
+
 	$('.rose__playbtn').click(function(event) {
+		showPopUp($('#main-video'));
+	});
+	$('#metamask').click(function(event) {
 		event.preventDefault();
-		$('.pop-up').fadeIn(400);
+		showPopUp($('#meta-video'))
+	});
+	$('#mew').click(function(event) {
+		event.preventDefault();
+		showPopUp($('#mew-video'));
 	});
 
 	$('.close-btn').click(function() {
-		$('.pop-up').fadeOut(400);
-		stopVideo($('#qvideo'))
+		closePopUp();
 	});
 	$('.pop-layout').click(function(){
-		$('.pop-up').fadeOut(400);
-		stopVideo($('#qvideo'))
+		closePopUp();
 	})
 
 
