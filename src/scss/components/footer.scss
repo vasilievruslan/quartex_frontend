@@ -39,16 +39,21 @@
 }
 .slack{
 	width: 20px !important;
-	background: url('../img/socials-sprite.svg') right 0 no-repeat;
+	background: url('../img/socials-sprite.svg') -205px 0 no-repeat;
 	margin-right: 16px;
 }
 .linkedin{
 	background: url('../img/socials-sprite.svg') -91px 0 no-repeat;
+	margin-right: 16px;
 }
 
 .twitter-w{
 	background: url('../img/socials-sprite.svg') -46px 0 no-repeat;
 	margin-right: 16px;
+}
+.email{
+	background: url('../img/socials-sprite.svg') -225px 0 no-repeat;
+	width: 27px !important;
 }
 
 .linkedin-w{
