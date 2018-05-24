@@ -142,7 +142,7 @@ $(function () {
 		hour = minute * 60,
 		day = hour * 24;
 
-	var countDown = new Date('Jul26, 2018 00:00:00 UTC'),
+	var countDown = new Date('May27, 2018 09:00:00 UTC+9'),
 	x = setInterval(function() {
 
 		var now = new Date().getTime(),
@@ -166,10 +166,27 @@ $(function () {
 
 	}, second)
 
+	// pogressbar
+
+	var APIkey = 'C4Y9FU5SXSE1TDBHT4SWHMG9SXA4SMGJTP';
+	var contract = '0x745fa4002332c020f6a05b3fe04bccf060e36dd3';
+	var address = '0xb25ceF763846FE25185dE5cF970Fdf2AC13FC16d';
+	var amount = null;
+	var totalSupply = 420000000;
+
+	$.get('https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=' + contract + '&address='+ address +'&tag=latest&apikey='+ APIkey +'', function(data) {
+		amount = parseFloat(data.result) / 1000000000000000000;
+	}).done(function(){
+		var saleProgress = (totalSupply - amount) / totalSupply * 100;
+
+		$('.progress-bar__fill-bar').css({width: saleProgress + '%'});
+		$('.qtx-amount').html(totalSupply - amount + ' QTX')
+	});
+
 
 	// calculator
 
-	var price = 0.125223
+	var price = 0.000125
 
 	$('#input').keyup(function(event) {
 		var res = parseFloat($('#input').val()) / price

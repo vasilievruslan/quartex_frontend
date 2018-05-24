@@ -67,10 +67,10 @@
 	.roadmap__responsive{
 		display: block;
 		img{
-			width: calc(100% + 17px);
+			width: 100%;
 		    position: relative;
-		    top: -6px;
-		    left: -7px;
+		    top: 0;
+		    left: 0;
 		}
 	}
 	.roadmap{

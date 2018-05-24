@@ -20,8 +20,9 @@
 	position: absolute;
 	height: 45px;
 	border-radius: 20px;
-	width: 15%;
+	width: 1%;
 	background: linear-gradient(to right, rgba(177,120,235,1) 0%,rgba(138,113,202,1) 100%); 
+	transition: width 2s ease-in-out;
 }
 .progress-bar__start{
 	position: absolute;
