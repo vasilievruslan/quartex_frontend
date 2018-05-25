@@ -13,48 +13,24 @@
 	<meta name="keywords" content="exchange, bitcoin, ethereum, cryptocurrency, quartex, voice core, crypto">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119675815-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-119675815-1');
+		gtag('config', 'UA-119675815-1');
+
+		var lang = window.navigator.language || navigator.userLanguage
+
+		console.log('language: ' + lang)
+
+		if ( lang  == "ko" ) {       
+			window.location.replace('/kor.html')
+		}else{
+			window.location.replace('/eng.html')
+		}
 	</script>
 </head>
 <body>
 
-	<a href="/crowdsale.html" class="tocrowsale-btn">
-		<span class="text">buy qtx</span>
-	</a>
-	
-	//= tmpl/pre-loader.html
-
-	//= tmpl/banner.html
-	
-	//= tmpl/carousel.html
-
-	//= tmpl/currency.html
-
-	//= tmpl/access.html
-
-	//= tmpl/info-token.html
-
-	//= tmpl/roadmap.html
-
-	//= tmpl/team.html
-
-	//= tmpl/form.html
-
-	//= tmpl/partners.html
-
-	//= tmpl/about.html
-
-	//= tmpl/footer.html
-
-	//= tmpl/pop-up.html
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-	<script src="js/main.js?n=9"></script>
 </body>
 </html>
