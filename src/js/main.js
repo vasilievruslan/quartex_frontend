@@ -263,7 +263,15 @@ $(function () {
             }
         }
     });
+    // raffle banner
 
+    $('.raffle__close').click(function() {
+    	$('.raffle').fadeOut('600');
+    });
+	$('#raffle__open').click(function(event) {
+		event.preventDefault();
+		$('.raffle').fadeIn(600);
+	});
 
     // faq accordion
 
