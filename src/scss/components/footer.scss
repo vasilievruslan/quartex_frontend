@@ -64,6 +64,7 @@
 	background: url('../img/socials-sprite.svg') 0 0 no-repeat;
 }
 
+// ========== raffle ================
 .raffle{
 	position: fixed;
 	top: 0;
@@ -127,6 +128,17 @@
 	box-sizing: border-box;
 	display: block;
 	margin: 20px;
+	position: relative;
+	&:after{
+		position: absolute;
+		right: 23px;
+		top: 50%;
+		transform: translateY(-50%);
+		content: '';
+		width: 20px;
+		height: 12px;
+		background: transparent url('../img/arrow.svg') left top no-repeat;
+	}
 }
 
 .ruffle__btns{
@@ -165,6 +177,8 @@
 	right: -15px;
 	color: #000;
 }
+
+// ========== raffle end ================
 
 .pop-up{
 	color: #fff;
