@@ -21,7 +21,16 @@ $(function () {
 		$('#eth_usd').html(Math.floor(data.eth_usd.avg));
 
 	}, 'jsonp');
+
+	$('.block__btn').click(function(event) {
+		event.preventDefault();
+		$(this).find('.store__toolkit').fadeIn(300).delay(3000).fadeOut(600);
+	});
 	
+	$('.kakao').click(function(event) {
+		$(this).toggleClass('active');
+	});
+
 	//= cards-slider.js
 
 	$('.members__slider').slick({
@@ -87,7 +96,7 @@ $(function () {
 		try {
 			var mp = $('.roadmap').offset().top + $('.roadmap').height() / 2;
 		} catch(e) {
-			console.log(e);
+
 		}
 
 		if(sb > mp){
@@ -108,10 +117,21 @@ $(function () {
 	}, 50)
 
 
-	$('.roadmap__responsive').click(function(event) {
-		$('.roadmap__responsive__container').slideToggle(600);
-		$('.rm__arrow').toggleClass('active');
-		$('.roadmap__responsive__button').toggleClass('active');
+	$('.roadmap__responsive').on('click', function(event) {
+
+		if($('.roadmap__responsive__button').is('.active')){
+			$('.roadmap__responsive__container').slideToggle(600);
+			setTimeout(function(){
+				$('.rm__arrow').toggleClass('active');
+				$('.roadmap__responsive__button').toggleClass('active');
+			}, 600)
+		}else{
+			$('.rm__arrow').toggleClass('active');
+			$('.roadmap__responsive__button').toggleClass('active');
+			setTimeout(function(){
+				$('.roadmap__responsive__container').slideToggle(600);
+			}, 200)
+		}
 	});
 
 	// countdown
@@ -122,7 +142,7 @@ $(function () {
 		hour = minute * 60,
 		day = hour * 24;
 
-	var countDown = new Date('Apr 26, 2018 00:00:00 UTC'),
+	var countDown = new Date('May27, 2018 09:00:00 UTC+9'),
 	x = setInterval(function() {
 
 		var now = new Date().getTime(),
@@ -146,10 +166,27 @@ $(function () {
 
 	}, second)
 
+	// pogressbar
+
+	var APIkey = 'C4Y9FU5SXSE1TDBHT4SWHMG9SXA4SMGJTP';
+	var contract = '0x745fa4002332c020f6a05b3fe04bccf060e36dd3';
+	var address = '0xb25ceF763846FE25185dE5cF970Fdf2AC13FC16d';
+	var amount = null;
+	var totalSupply = 420000000;
+
+	$.get('https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=' + contract + '&address='+ address +'&tag=latest&apikey='+ APIkey +'', function(data) {
+		amount = parseFloat(data.result) / 1000000000000000000;
+	}).done(function(){
+		var saleProgress = (totalSupply - amount) / totalSupply * 100;
+
+		$('.progress-bar__fill-bar').css({width: saleProgress + '%'});
+		$('.qtx-amount').html(totalSupply - amount + ' QTX')
+	});
+
 
 	// calculator
 
-	var price = 0.125223
+	var price = 0.000125
 
 	$('#input').keyup(function(event) {
 		var res = parseFloat($('#input').val()) / price
@@ -160,23 +197,40 @@ $(function () {
 	// pop-up video
 
 	var stopVideo = function(player) {
-    var vidSrc = player.prop('src');
+		var vidSrc = player.prop('src');
 	    player.prop('src', ''); // to force it to pause
 	    player.prop('src', vidSrc);
 	};
 
+	function showPopUp(curPopUp) {
+		curPopUp
+		.fadeIn(400)
+		.addClass('active');
+	}
+	function closePopUp (){
+		stopVideo($('.pop-up.active').find('iframe'))
+		$('.pop-up.active')
+		.fadeOut(400)
+		.removeClass('active');
+	}
+
 	$('.rose__playbtn').click(function(event) {
+		showPopUp($('#main-video'));
+	});
+	$('#metamask').click(function(event) {
 		event.preventDefault();
-		$('.pop-up').fadeIn(400);
+		showPopUp($('#meta-video'))
+	});
+	$('#mew').click(function(event) {
+		event.preventDefault();
+		showPopUp($('#mew-video'));
 	});
 
 	$('.close-btn').click(function() {
-		$('.pop-up').fadeOut(400);
-		stopVideo($('#qvideo'))
+		closePopUp();
 	});
 	$('.pop-layout').click(function(){
-		$('.pop-up').fadeOut(400);
-		stopVideo($('#qvideo'))
+		closePopUp();
 	})
 
 
@@ -209,7 +263,15 @@ $(function () {
             }
         }
     });
+    // raffle banner
 
+    $('.raffle__close').click(function() {
+    	$('.raffle').fadeOut('600');
+    });
+	$('#raffle__open').click(function(event) {
+		event.preventDefault();
+		$('.raffle').fadeIn(600);
+	});
 
     // faq accordion
 

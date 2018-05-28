@@ -65,6 +65,12 @@
 		background-size: cover;
 	}
 }
+.commisions{
+	text-align: center;
+	a{
+		color: #fff;
+	}
+}
 @media screen and (max-width: 1024px) {
 	.about__columns__container{
 		flex-wrap: wrap;
