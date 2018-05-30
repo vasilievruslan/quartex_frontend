@@ -172,17 +172,23 @@ $(function () {
 	var contract = '0x745fa4002332c020f6a05b3fe04bccf060e36dd3';
 	var address = '0xb25ceF763846FE25185dE5cF970Fdf2AC13FC16d';
 	var amount = null;
-	var totalSupply = 420000000;
+	var totalSupply = 201000000;
+	var saleProgress = null;
 
 	$.get('https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=' + contract + '&address='+ address +'&tag=latest&apikey='+ APIkey +'', function(data) {
 		amount = parseFloat(data.result) / 1000000000000000000;
 	}).done(function(){
-		var saleProgress = (totalSupply - amount) / totalSupply * 100;
+		saleProgress = (totalSupply - amount) / totalSupply * 100;
 
 		$('.progress-bar__fill-bar').css({width: saleProgress + '%'});
 		$('.qtx-amount').html(totalSupply - amount + ' QTX')
 	});
 
+	if (saleProgress < 5) {
+		$('.qtx-amount').css({
+			right: '-70px'
+		});
+	}
 
 	// calculator
 
