@@ -51,6 +51,7 @@ $(function () {
 		autoplay: true,
 		autoplaySpeed: 3000,
 		pauseOnDotsHover: true,
+		adaptiveHeight: false,
 		responsive: [
 	    {
 	      breakpoint: 824,
